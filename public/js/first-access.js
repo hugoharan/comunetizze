@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $('a.prox').click(function(){
+        event.preventDefault();
+        $(this).parent().next().addClass("active");
+        $(this).parent().removeClass("active");
+    });
+    $('a.ant').click(function(){
+        event.preventDefault();
+        $(this).parent().prev().addClass("active");
+        $(this).parent().removeClass("active");
+    });
+});

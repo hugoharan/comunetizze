@@ -1,0 +1,133 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.left_col, .nav_title, body{
+	background-color: #2332A5;
+}
+
+ .container.body .right_col{
+ 	background: #FDFDFD;
+ }
+
+ .top_search .form-control{
+ 	    background: #E0E0E0;
+    border: none;
+    box-shadow: none;
+ }
+
+ .top_search{
+ 	    margin: 1em;	
+    margin-top: 7px;
+ }
+
+ .top_search .input-group-btn button{
+ 	background: #E0E0E0;
+    box-shadow: none;
+ }
+
+ .top_search .input-group input{
+ 	color: #484848;
+ }
+
+ .page-title{
+ 	    margin-bottom: 4em;
+ }
+
+ .page-title .btn-user{
+ 	background: #E0E0E0;
+    border: none;
+    padding: 15px 25px;
+    margin-top: -7px;
+    color: #484848;
+ }
+
+ .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle{
+ 	background: #ddd;
+    border: none;
+    color: #484848;
+ }
+.dropdown-menu.show {
+    display: block;
+    width: 100%;
+}
+ .btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus{
+ 	box-shadow: none;
+ 	color: #484848;
+ 	border: none;
+ }
+
+ .btn-secondary.focus, .btn-secondary:focus{
+ 	box-shadow: none;
+ }
+
+.page-title .title_right .pull-right{
+ 	margin-top: 0;
+ }
+.page-title .title_right .img-user{
+ max-width: 30px; border-radius: 100%; margin-right: 10px;
+}
+
+.dropdown-menu a{
+	text-align: right;
+}
+
+.nav_title{
+	margin: 3em 0 1em;
+}
+
+.nav-md .logo-lg img{
+	max-width: 90%;
+}
+
+.nav-sm .logo-lg{
+	display: none;
+}
+
+.nav-sm .sep{
+	width: 60%;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.nav-md .logo-sm{
+	display: none;
+}
+
+.nav-sm .logo-sm{
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+.nav-sm .nav.side-menu>li>a, .nav.child_menu>li>a{
+	color:#FFF;
+	text-align: center !important;
+}
+
+.nav-md .nav.side-menu>li>a>img, .nav.child_menu>li>a>img{
+	margin-right: 10px;
+}
+
+.nav-sm .nav.side-menu>li>a>img, .nav.child_menu>li>a>img{
+	display: block;
+	margin: 0 auto 5px;
+}
+
+
+
+.nav.side-menu>li.active>a, .nav.side-menu>li>a:hover{
+	background: #000A56;
+	box-shadow: none;
+}
+
+.nav.side-menu>li.active{
+	border: none;
+}
+
+.page-title{
+	padding: 3em 1em;
+}
+
+.main-content{
+	padding: 2em;
+}
